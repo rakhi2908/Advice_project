@@ -1,0 +1,30 @@
+#root, html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.app {
+  height: 100vh;
+  background-image: url("./images/city.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 5px solid red;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.75);
+  padding: 30px 40px;
+  border-radius: 12px;
+  max-width: 600px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+.heading {
+  font-size: 22px;
+  color: #333;
+}
